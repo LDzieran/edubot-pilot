@@ -1,4 +1,5 @@
 radio.setGroup(1)
+basic.showIcon(IconNames.Heart)
 basic.forever(function () {
     if (joystickbit.getRockerValue(joystickbit.rockerType.X) < 200) {
         radio.sendNumber(4)
